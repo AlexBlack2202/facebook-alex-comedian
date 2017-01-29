@@ -3,7 +3,7 @@
   "version": "0.2.5",
   "description": "a sample using nodejs with facebook chat",
   "engines": {
-    "node": "6.1.0"
+    "node": "6.9.2"
   },
   "main": "server.js",
   "scripts": {
