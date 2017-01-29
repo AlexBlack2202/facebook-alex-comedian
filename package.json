@@ -5,9 +5,9 @@
   "engines": {
     "node": "6.9.2"
   },
-  "main": "server.js",
+  "main": "test.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node test.js"
   },
    "engines": {
     "npm": "3.10.8"
