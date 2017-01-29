@@ -1,9 +1,22 @@
 {
   "name": "facebook-alex-comedian",
-  "description": "a really cool app",
-  "version": "1.0.0",  
-  "main": "server.js",
+  "version": "0.2.5",
+  "description": "a sample using nodejs with facebook chat",
   "engines": {
-    "node": "4.1.1"
-  }
+    "node": "5.9.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexBlack2202/facebook-alex-comedian"
+  },
+  "keywords": [
+    "facebook chat",
+    "alex black",
+    "comedian"
+  ],
+  "license": "MIT"
 }
