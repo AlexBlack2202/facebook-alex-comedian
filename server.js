@@ -38,7 +38,23 @@ app.post('/webhook', function(req, res) {
         // If user send text
         if (message.message.text) {
           var text = message.message.text;
-          console.log(text); // In tin nhắn người dùng
+         var  command= text.substring(0,4);
+          var rand_val=1;
+          if(command ==='cười'){
+         rand_val= Math.floor(Math.random() * 2) + 1  ;
+            switch(rand_val){
+              case 1: "Có 1 anh chàng một hôm đang đi nhặt lá đá ống bơ thì nhặt được 1 quyển bí kíp.\
+
+Nghi là võ học thượng thừa nên anh ta giấu mang về nhà đọc.\
+
+Trang 1 : Miêu tả về võ công. Có thể hô mưa gọi gió. Độc bộ thiên hạ. Đưa người ta lên đỉnh cao của võ học.\
+
+Trang 2 : Cần phải tự cung mới có thể luyện …\
+
+Sau một hồi đắn đo suy nghĩ. Anh ta hạ quyết tâm vung đao tự cung."\;break;
+              case 2: "hết truyện";break;
+                           }
+          }
           sendMessage(senderId, "Tui là bot đây: " + text);
         }
       }
