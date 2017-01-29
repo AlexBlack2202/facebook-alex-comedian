@@ -17,6 +17,9 @@
     "type": "git",
     "url": "https://github.com/AlexBlack2202/facebook-alex-comedian"
   },
+  "dependencies": {
+  "bower": "^1.5.2"
+},
   "keywords": [
     "facebook chat",
     "alex black",
