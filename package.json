@@ -11,7 +11,7 @@
     "postinstall": "bower install && grunt build"
   },
    "engines": {
-    "npm": "3.10.9"
+    "npm": "3.10.8"
   },
   "repository": {
     "type": "git",
